@@ -85,11 +85,6 @@ export default {
             console.log(e);
         }
         
-    },
-    mounted () {
-        this.$root.$on('editarPessoa', pessoa => {
-            console.log(pessoa);
-        })
     }
 }
 </script>

@@ -48,6 +48,7 @@ export default {
             const req = await fetch("http://localhost:3000/Pessoas")
 
             const data = await req.json();
+            console.log(data)
 
             this.pessoas = data;
         },
